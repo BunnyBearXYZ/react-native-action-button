@@ -71,7 +71,8 @@ export default class ActionButton extends Component {
   getOffsetXY() {
     return {
       // paddingHorizontal: this.props.offsetX,
-      paddingVertical: this.props.offsetY
+      //paddingVertical: this.props.offsetY,
+      paddingBottom: this.props.offsetY
     };
   }
 
